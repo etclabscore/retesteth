@@ -8,8 +8,8 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # Retesteth
-# ADD . /retesteth
-RUN git clone --depth 1 -b master https://github.com/ethereum/retesteth.git /retesteth
+ADD . /retesteth
+# RUN git clone --depth 1 -b master https://github.com/ethereum/retesteth.git /retesteth
 RUN mkdir /build && cd /build \
     && cmake /retesteth -DCMAKE_BUILD_TYPE=Release \
     && make -j8 \
