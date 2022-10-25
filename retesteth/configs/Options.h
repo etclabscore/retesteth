@@ -11,6 +11,7 @@ class alethIpcDebugcfg { public: alethIpcDebugcfg(); };
 class besucfg { public: besucfg(); };
 class t8ntoolcfg { public: t8ntoolcfg(); };
 class t8ntooleipcfg { public: t8ntooleipcfg(); };
+class t8ntooletccfg { public: t8ntooletccfg(); };
 class oewrapcfg { public: oewrapcfg(); };
 class ethereumjscfg { public: ethereumjscfg(); };
 
@@ -54,6 +55,7 @@ public:
         alethIpcDebugcfg alethIpcDebug;
         besucfg besu;
         t8ntoolcfg t8ntool;
+        t8ntooletccfg t8ntooletc;
         t8ntooleipcfg t8ntooleip;
         oewrapcfg oewrap;
         ethereumjscfg ethereumjs;
