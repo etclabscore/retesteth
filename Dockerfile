@@ -38,7 +38,7 @@ RUN apt-get install wget && wget https://github.com/ethereum/solidity/releases/d
    && chmod +x /bin/solc
 
 # Geth
-RUN git clone --depth 1 -b master https://github.com/ethereum/go-ethereum.git /geth
+RUN git clone --depth 1 -b master https://github.com/etclabscore/core-geth.git /geth
 RUN cd /geth && apt-get install wget \
     && wget https://dl.google.com/go/go1.18.linux-amd64.tar.gz \
     && tar -xvf go1.18.linux-amd64.tar.gz \
