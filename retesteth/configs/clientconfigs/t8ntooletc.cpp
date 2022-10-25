@@ -12,6 +12,7 @@ string const t8ntooletc_config = R"({
         "Frontier",
         "Homestead",
         "Byzantium",
+        "ETC_Atlantis",
         "Constantinople",
         "Istanbul",
         "Berlin",

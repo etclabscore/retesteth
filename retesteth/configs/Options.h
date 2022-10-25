@@ -38,6 +38,7 @@ class t8ntooleip_genLondon1884Cfg { public: t8ntooleip_genLondon1884Cfg(); };
 
 // T8ntooletc
 class t8ntooletc_genRewardsCfg { public: t8ntooletc_genRewardsCfg(); };
+class t8ntooletc_genETC_AtlantisCfg { public: t8ntooletc_genETC_AtlantisCfg(); };
 class t8ntooletc_genETC_MystiqueCfg { public: t8ntooletc_genETC_MystiqueCfg(); };
 
 // Transition genesis configs
@@ -86,6 +87,7 @@ public:
 
         // T8ntooletc
         t8ntooletc_genRewardsCfg t8Ntooletc_RewardsCfg;
+        t8ntooletc_genETC_AtlantisCfg t8ntooletc_ETC_AtlantisCfg;
         t8ntooletc_genETC_MystiqueCfg t8ntooletc_ETC_MystiqueCfg;
 
         // Transition genesis configs
