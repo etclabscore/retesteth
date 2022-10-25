@@ -21,6 +21,7 @@ string const t8ntooleip_config = R"({
         "Berlin",
         "London",
         "London+1884",
+        "ETC_Mystique",
         "Merge"
     ],
     "additionalForks" : [

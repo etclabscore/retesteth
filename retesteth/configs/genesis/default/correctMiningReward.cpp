@@ -16,6 +16,7 @@ const string default_correctMiningReward_config = R"({
     "Istanbul":          "2000000000000000000",
     "Berlin" :           "2000000000000000000",
     "London" :           "2000000000000000000",
+    "ETC_Mystique":      "2560000000000000000",
     "ArrowGlacier" :     "2000000000000000000",
     "GrayGlacier" :      "2000000000000000000"
 })";
@@ -32,6 +33,7 @@ const string t8ntool_correctMiningReward_config = R"({
     "Istanbul":          "2000000000000000000",
     "Berlin" :           "2000000000000000000",
     "London" :           "2000000000000000000",
+    "ETC_Mystique":      "2560000000000000000",
     "ArrowGlacier" :     "2000000000000000000",
     "GrayGlacier" :      "2000000000000000000",
 

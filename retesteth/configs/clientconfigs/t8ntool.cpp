@@ -24,6 +24,7 @@ string const t8ntool_config = R"({
         "Istanbul",
         "Berlin",
         "London",
+        "ETC_Mystique",
         "Merge"
     ],
     "additionalForks" : [

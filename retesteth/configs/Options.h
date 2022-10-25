@@ -26,6 +26,7 @@ class genConstantinopleFixCfg { public: genConstantinopleFixCfg(); };
 class genIstanbulCfg { public: genIstanbulCfg(); };
 class genBerlinCfg { public: genBerlinCfg(); };
 class genLondonCfg { public: genLondonCfg(); };
+class genETC_MystiqueCfg { public: genETC_MystiqueCfg(); };
 class genArrowGlacierCfg { public: genArrowGlacierCfg(); };
 class genGrayGlacierCfg { public: genGrayGlacierCfg(); };
 class genMergeCfg { public: genMergeCfg(); };
@@ -70,6 +71,7 @@ public:
         genIstanbulCfg genIstanbuil;
         genBerlinCfg genBerlin;
         genLondonCfg genLondon;
+        genETC_MystiqueCfg genETC_Mystique;
         genArrowGlacierCfg genArrowGlacier;
         genGrayGlacierCfg genGrayGlacier;
         genMergeCfg genMerge;
