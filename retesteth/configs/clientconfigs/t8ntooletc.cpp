@@ -11,6 +11,11 @@ string const t8ntooletc_config = R"({
     "forks" : [
         "Frontier",
         "Homestead",
+        "Byzantium",
+        "Constantinople",
+        "Istanbul",
+        "Berlin",
+        "London",
         "ETC_Mystique"
     ],
     "additionalForks" : [],

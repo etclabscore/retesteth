@@ -36,6 +36,10 @@ class genArrowGlacierToMergeAtDiffC0000Cfg { public: genArrowGlacierToMergeAtDif
 class t8ntooleip_genRewardsCfg { public: t8ntooleip_genRewardsCfg(); };
 class t8ntooleip_genLondon1884Cfg { public: t8ntooleip_genLondon1884Cfg(); };
 
+// T8ntooletc
+class t8ntooletc_genRewardsCfg { public: t8ntooletc_genRewardsCfg(); };
+class t8ntooletc_genETC_MystiqueCfg { public: t8ntooletc_genETC_MystiqueCfg(); };
+
 // Transition genesis configs
 class genFrontierToHomesteadCfg { public: genFrontierToHomesteadCfg(); };
 class genHomesteadToDaoCfg { public: genHomesteadToDaoCfg(); };
@@ -79,6 +83,10 @@ public:
         // T8ntooleip
         t8ntooleip_genRewardsCfg t8ntooleip_RewardsCfg;
         t8ntooleip_genLondon1884Cfg t8ntooleip_London1884Cfg;
+
+        // T8ntooletc
+        t8ntooletc_genRewardsCfg t8Ntooletc_RewardsCfg;
+        t8ntooletc_genETC_MystiqueCfg t8ntooletc_ETC_MystiqueCfg;
 
         // Transition genesis configs
         genFrontierToHomesteadCfg genFrontierToHomestead;
