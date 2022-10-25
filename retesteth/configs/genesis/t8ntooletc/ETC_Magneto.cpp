@@ -3,9 +3,9 @@
 using namespace std;
 using namespace dataobject;
 
-const string t8ntooletc_ETC_Agharta_config = R"({
+const string t8ntooletc_ETC_Magneto_config = R"({
     "params" : {
-        "fork" : "ETC_Agharta",
+        "fork" : "ETC_Magneto",
         "homesteadForkBlock" : "0x00",
         "byzantiumForkBlock" : "0x00",
         "constantinopleForkBlock" : "0x00"
@@ -15,10 +15,10 @@ const string t8ntooletc_ETC_Agharta_config = R"({
     }
 })";
 
-t8ntooletc_genETC_AghartaCfg::t8ntooletc_genETC_AghartaCfg()
+t8ntooletc_genETC_MagnetoCfg::t8ntooletc_genETC_MagnetoCfg()
 {
     spDataObject obj2;
-    (*obj2)["path"] = "t8ntooletc/genesis/ETC_Agharta.json";
-    (*obj2)["content"] = t8ntooletc_ETC_Agharta_config;
+    (*obj2)["path"] = "t8ntooletc/genesis/ETC_Magneto.json";
+    (*obj2)["content"] = t8ntooletc_ETC_Magneto_config;
     map_configs.addArrayObject(obj2);
 }

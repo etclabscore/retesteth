@@ -31,7 +31,9 @@ testspath=/home/ia/dev/ethereum/tests
 
 # Fill tests for a suite of tests, still for a single fork.
 # ./dretesteth.sh -t GeneralStateTests/stArgsZeroOneBalance -- --filltests --testpath "${testspath}" --clients t8ntooletc --singlenet ETC_Mystique
-./build/retesteth/retesteth -t GeneralStateTests/stArgsZeroOneBalance -- --filltests --testpath "${testspath}" --clients t8ntooletc --singlenet ETC_Mystique
+# ./build/retesteth/retesteth -t GeneralStateTests/stArgsZeroOneBalance -- --filltests --testpath "${testspath}" --clients t8ntooletc --singlenet ETC_Mystique
+./build/retesteth/retesteth -t GeneralStateTests/stArgsZeroOneBalance -- --filltests --testpath "${testspath}" --clients t8ntooletc 
+
 # Beware, this one takes a long time.
 # ./dretesteth.sh -t GeneralStateTests -- --filltests --testpath "${testspath}" --clients t8ntool --singlenet ETC_Mystique
 

@@ -26,6 +26,10 @@ const string t8ntooletc_correctMiningReward_config = R"({
     "Aleut"  :           "2000000000000000000",
     "Merge"  :           "0",
     "Merged"  :          "0",
+    "ETC_Atlantis":      "5000000000000000000",
+    "ETC_Agharta":       "5000000000000000000",
+    "ETC_Phoenix":       "4000000000000000000",
+    "ETC_Magneto":       "2560000000000000000",
     "ETC_Mystique":      "2560000000000000000"
 })";
 
