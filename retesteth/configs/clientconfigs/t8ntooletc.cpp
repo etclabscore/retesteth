@@ -7,7 +7,7 @@ string const t8ntooletc_config = R"({
     "socketType" : "tranition-tool",
     "socketAddress" : "start.sh",
     "checkLogsHash" : true,
-    "chainID" : 61,
+    "chainID" : 1,
     "forks" : [
         "Frontier",
         "Homestead",

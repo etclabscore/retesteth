@@ -6,6 +6,7 @@ using namespace dataobject;
 const string t8ntooletc_ETC_Magneto_config = R"({
     "params" : {
         "fork" : "ETC_Magneto",
+        "chainID" : "0x3d",
         "homesteadForkBlock" : "0x00",
         "byzantiumForkBlock" : "0x00",
         "constantinopleForkBlock" : "0x00"
