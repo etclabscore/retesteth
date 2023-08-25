@@ -25,7 +25,8 @@ const string t8ntool_correctMiningReward_config = R"({
     "ETC_Agharta" :      "4000000000000000000",
     "ETC_Phoenix" :      "3200000000000000000",
     "ETC_Magneto" :      "3200000000000000000",
-    "ETC_Mystique" :     "3200000000000000000"
+    "ETC_Mystique" :     "3200000000000000000",
+    "ETC_Spiral" :       "3200000000000000000"
 })";
 
     spDataObject obj2;

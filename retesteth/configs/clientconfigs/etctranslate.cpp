@@ -33,7 +33,8 @@ string const etctr_config = R"({
         "Istanbul",
         "Berlin",
         "London",
-        "Merge"
+        "Merge",
+        "Shanghai"
     ],
     "additionalForks" : [
     ],

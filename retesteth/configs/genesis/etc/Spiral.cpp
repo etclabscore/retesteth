@@ -4,10 +4,10 @@ using namespace dataobject;
 
 namespace retesteth::options
 {
-genMystique2CfgETC::genMystique2CfgETC()
+genSpiralCfgETC::genSpiralCfgETC()
 {
 
-const string rpc_Mystique2_config = R"({
+const string rpc_Spiral_config = R"({
     "params" : {
         "homesteadForkBlock" : "0x00",
         "EIP150ForkBlock" : "0x00",
@@ -23,7 +23,7 @@ const string rpc_Mystique2_config = R"({
     }
 })";
 
-const string etc_Mystique2_config = R"({
+const string etc_Spiral_config = R"({
     "params" : {
         "fork" : "ETC_Mystique",
         "chainID" : "0x3d"
@@ -33,13 +33,13 @@ const string etc_Mystique2_config = R"({
 })";
 
     spDataObject obj;
-    (*obj)["path"] = "besuetc/genesis/ETC_Mystique2.json";
-    (*obj)["content"] = rpc_Mystique2_config;
+    (*obj)["path"] = "besuetc/genesis/ETC_Spiral.json";
+    (*obj)["content"] = rpc_Spiral_config;
     map_configs.addArrayObject(obj);
 
     spDataObject obj2;
-    (*obj2)["path"] = "etc/genesis/ETC_Mystique2.json";
-    (*obj2)["content"] = etc_Mystique2_config;
+    (*obj2)["path"] = "etc/genesis/ETC_Spiral.json";
+    (*obj2)["content"] = etc_Spiral_config;
     map_configs.addArrayObject(obj2);
 }
 }  // namespace retesteth::options

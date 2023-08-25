@@ -30,7 +30,7 @@ string const etc_config = R"({
         "ETC_Phoenix",
         "ETC_Magneto",
         "ETC_Mystique",
-        "ETC_Mystique2",
+        "ETC_Spiral",
         "ETC_Mystique3"
     ],
     "additionalForks" : [

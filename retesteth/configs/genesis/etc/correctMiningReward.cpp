@@ -19,7 +19,7 @@ const string etc_correctMiningReward_config = R"({
     "ETC_Phoenix" :      "3200000000000000000",
     "ETC_Magneto" :      "3200000000000000000",
     "ETC_Mystique" :     "3200000000000000000",
-    "ETC_Mystique2" :     "3200000000000000000",
+    "ETC_Spiral" :       "3200000000000000000",
     "ETC_Mystique3" :     "3200000000000000000"
 
 })";
