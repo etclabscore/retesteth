@@ -11,6 +11,7 @@ class alethIpcDebugcfg { public: alethIpcDebugcfg(); };
 class besucfg { public: besucfg(); };
 class t8ntoolcfg { public: t8ntoolcfg(); };
 class t8ntooleipcfg { public: t8ntooleipcfg(); };
+class t8ntooletccfg { public: t8ntooletccfg(); };
 class oewrapcfg { public: oewrapcfg(); };
 class ethereumjscfg { public: ethereumjscfg(); };
 
@@ -35,6 +36,14 @@ class genArrowGlacierToMergeAtDiffC0000Cfg { public: genArrowGlacierToMergeAtDif
 class t8ntooleip_genRewardsCfg { public: t8ntooleip_genRewardsCfg(); };
 class t8ntooleip_genLondon1884Cfg { public: t8ntooleip_genLondon1884Cfg(); };
 
+// T8ntooletc
+class t8ntooletc_genRewardsCfg { public: t8ntooletc_genRewardsCfg(); };
+class t8ntooletc_genETC_AtlantisCfg { public: t8ntooletc_genETC_AtlantisCfg(); };
+class t8ntooletc_genETC_AghartaCfg { public: t8ntooletc_genETC_AghartaCfg(); };
+class t8ntooletc_genETC_PhoenixCfg { public: t8ntooletc_genETC_PhoenixCfg(); };
+class t8ntooletc_genETC_MagnetoCfg { public: t8ntooletc_genETC_MagnetoCfg(); };
+class t8ntooletc_genETC_MystiqueCfg { public: t8ntooletc_genETC_MystiqueCfg(); };
+
 // Transition genesis configs
 class genFrontierToHomesteadCfg { public: genFrontierToHomesteadCfg(); };
 class genHomesteadToDaoCfg { public: genHomesteadToDaoCfg(); };
@@ -54,6 +63,7 @@ public:
         alethIpcDebugcfg alethIpcDebug;
         besucfg besu;
         t8ntoolcfg t8ntool;
+        t8ntooletccfg t8ntooletc;
         t8ntooleipcfg t8ntooleip;
         oewrapcfg oewrap;
         ethereumjscfg ethereumjs;
@@ -77,6 +87,14 @@ public:
         // T8ntooleip
         t8ntooleip_genRewardsCfg t8ntooleip_RewardsCfg;
         t8ntooleip_genLondon1884Cfg t8ntooleip_London1884Cfg;
+
+        // T8ntooletc
+        t8ntooletc_genRewardsCfg t8Ntooletc_RewardsCfg;
+        t8ntooletc_genETC_AtlantisCfg t8ntooletc_ETC_AtlantisCfg;
+        t8ntooletc_genETC_AghartaCfg t8ntooletc_ETC_AghartaCfg;
+        t8ntooletc_genETC_PhoenixCfg t8ntooletc_ETC_PhoenixCfg;
+        t8ntooletc_genETC_MagnetoCfg t8ntooletc_ETC_MagnetoCfg;
+        t8ntooletc_genETC_MystiqueCfg t8ntooletc_ETC_MystiqueCfg;
 
         // Transition genesis configs
         genFrontierToHomesteadCfg genFrontierToHomestead;
